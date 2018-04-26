@@ -146,7 +146,9 @@ def compile_wallet():
     run_command("wget https://github.com/Dixicoin-DXC/Dixicoin/releases/download/v4.2/dixi-4.2.0-aarch64-linux-gnu.zip")
     run_command("unzip dixi-4.2.0-aarch64-linux-gnu.zip -d dixicoin")
     run_command("mv dixicoin/dixi-4.2.0-aarch64-linux-gnu/dixicoind /usr/local/bin/dixicoind")
+    run_command("mv dixicoin/dixi-4.2.0-aarch64-linux-gnu/dixicoin-cli /usr/local/bin/dixicoin-cli")
     run_command("chmod +x /usr/local/bin/dixicoind")
+    run_command("chmod +x /usr/local/bin/dixicoin-cli")
     run_command("rm dixi-4.2.0-aarch64-linux-gnu.zip")		
 
 def get_total_memory():
