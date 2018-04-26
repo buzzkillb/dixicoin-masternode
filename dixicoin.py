@@ -116,14 +116,14 @@ def chech_root():
         print_error("This program requires root privileges.  Run as root user.")
         sys.exit(-1)
 
-# def secure_server():
-#    print_info("Securing server...")
-#    run_command("apt-get --assume-yes install ufw")
-#    run_command("ufw allow ssh/tcp")
-#    run_command("ufw limit ssh/tcp")
-#    run_command("ufw allow 33339/tcp")
-#    run_command("ufw allow 9999/tcp")
-#    run_command("ufw --force enable")
+def secure_server():
+    print_info("Securing server...")
+    run_command("apt-get --assume-yes install ufw")
+    run_command("ufw allow ssh/tcp")
+    run_command("ufw limit ssh/tcp")
+    run_command("ufw allow 61151/tcp")
+    run_command("ufw allow 61150/tcp")
+    run_command("ufw --force enable")
 
 def compile_wallet():
     print_info("Allocating swap...")
