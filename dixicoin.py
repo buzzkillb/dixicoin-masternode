@@ -124,7 +124,7 @@ def compile_wallet():
         f.close()
 
     print_info("Installing wallet build dependencies...")
-    run_command("apt-get --assume-yes install git unzip build-essential libssl-dev libdb++-dev libboost-all-dev libcrypto++-dev libqrencode-dev libminiupnpc-dev libgmp-dev libgmp3-dev autoconf autogen automake  libtool")
+    run_command("apt-get --assume-yes install git nano unzip build-essential libzmq5 libssl-dev libdb++-dev libboost-all-dev libcrypto++-dev libqrencode-dev libminiupnpc-dev libgmp-dev libgmp3-dev autoconf autogen automake  libtool")
     run_command("add-apt-repository ppa:bitcoin/bitcoin -y")
     run_command("apt-get update")
     run_command("apt-get --assume-yes install git unzip libdb4.8-dev libdb4.8++-dev")
