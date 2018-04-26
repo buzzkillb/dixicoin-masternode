@@ -258,7 +258,7 @@ masternodeprivkey={}
 def setup_masternodes():
     memory = get_total_memory()
     masternodes = int(math.floor(memory / 300))
-    print_info("This system is capable to run around {} masternodes. To support Denarius network only use one masternode per ip.".format(masternodes))
+    print_info("This system is capable to run around {} masternodes. To support Dixicoin network only use one masternode per ip.".format(masternodes))
     print_info("How much masternodes do you want to setup?")
     masternodes = int(raw_input("Number of masternodes: "))
    
