@@ -75,12 +75,7 @@ def run_command(command):
 def print_welcome():
     os.system('clear')
 
-    print(" ________   _______  ")
-    print(" |  _  \ \ / /  __ \ ")
-    print(" | | | |\ V /| /  \/ ")
-    print(" | | | |/   \| |     ")
-    print(" | |/ // /^\ \ \__/\ ")
-    print(" |___/ \/   \/\____/ ")           
+          
     print("")
     print_info("Dixicoin masternode(s) installer v1.337 nocompile")
     print("")
