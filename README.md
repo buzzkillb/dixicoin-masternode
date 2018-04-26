@@ -3,6 +3,9 @@
 apt-get install python
 wget https://raw.githubusercontent.com/buzzkillb/dixicoin-masternode/master/dixicoin.py && python dixicoin.py
 ```
+Shout outs to [Denarius Coin](https://denarius.io/)
+# ![Denarius](https://cdn.discordapp.com/attachments/398821731826925568/439101980875685898/DNRATOM.gif)
+
 ## 1. Desktop Wallet Preparation
 
 ### 1.1 Setup the wallet
