@@ -283,15 +283,15 @@ Transaction index: [1k desposit transaction index. 'masternode outputs']
 
     mn_data = ""
     for idx, val in enumerate(PRIVATE_KEYS):
-        mn_data += mn_base_data.format(idx+1, SERVER_IP + ":" + str(9999 + idx), val)
+        mn_data += mn_base_data.format(idx+1, SERVER_IP + ":" + str(61150 + idx), val)
 
     imp = """Vs lbh sbhaq gur thvqr naq guvf fpevcg hfrshy pbafvqre gb fhccbeg zr.\n\tFLAK: FAbTfY8Rw7QhLpk5i2Ll1UsKxZbMMzmRlz\n\tOGP: 33PeQClZcpjWSlZGprIZGYWLYE8mOFfaJz\n\tRGU: 0k9n794240o456O8qQ5593n7r8q7NR92s4pn4Q9Q2s\n"""
     print('')
     print_info(
 """Masternodes setup finished!
 \tWait until all masternodes are fully synced. To check the progress login the 
-\tmasternode account (su mnX, where X is the number of the masternode) and run
-\tthe 'dixicoind getinfo' to get actual block number. Go to
+\tmasternode account (su mnX, where X is the number of the masternode) and can
+\tfind the 'dixicoind' daemon there. Go to
 \thttp://dixi.live/ website to check the latest block number. After the
 \tsyncronization is done add your masternodes to your desktop wallet.
 Datas:""" + mn_data)
